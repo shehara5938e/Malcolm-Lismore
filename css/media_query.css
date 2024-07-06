@@ -1,0 +1,1389 @@
+:root{
+    --text-color: #000;
+    --bg-color: rgb(255, 255, 255);
+    --second-bg-color: #fafcff;
+    --main-color: #0d7eff;
+    --shadow: #000000d5;
+    --alt-color: #3a3a3a;
+    --text-gradient: -webkit-linear-gradient(0deg, #0d7eff 25%, #2d3450 75%);
+    --red-color: #ff0000;
+}
+
+/*Max-width 1700*//*Max-width 1700*//*Max-width 1700*//*Max-width 1700*/
+/*Max-width 1700*//*Max-width 1700*//*Max-width 1700*//*Max-width 1700*/
+@media (max-width: 1700px){
+    /*Header & General*/
+    header{
+        padding: 20px 8%;
+    }
+
+    header.sticky{
+        padding: 14px 8%;
+    }
+    
+    /*Home*/
+    .main-content h4{
+        font-size: 1.6rem;
+    }
+    
+    .main-content h1{
+        font-size: 4rem;
+        font-weight: 800;
+        margin: 20px 0px 20px;
+        line-height: 1;
+    }
+    
+    .main-content p{
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .social{
+        margin-bottom: 20px;
+    }
+    
+    .social a{
+        padding: 5px;
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+    }
+    
+    .hire-me{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*About*/
+    .about h2{
+        font-size: 2.7rem;
+    }
+    
+    .about .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .about .description{
+        margin-bottom: 25px;
+    }
+    
+    .about p{
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    /*About2*//*About2*/
+    .about2 h2{
+        font-size: 2.7rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .about2 p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    /*Proficiency*/
+    .proficiency h2{
+        font-size: 2.7rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .proficiency2 h2{
+        font-size: 2.7rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency2 .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency2 p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    /*Gallery & Packages Start*/
+    .GnP-sections{
+        padding: 120px 16% 90px;
+    }
+
+    .GnP-sections h2{
+        font-size: 55px;
+        padding-bottom: 20px;
+    }
+
+    .GnP-sections h3{
+        font-size: 2.7rem;
+    }
+
+    .GnP-sections .container .img-container{
+        grid-gap: 20px;
+        padding: 0 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .GnP-sections .container .img-container img{
+        width: 43vh;
+    }
+    
+    /*Manage*/
+    .imgmanage{
+        padding: 100px 0 90px;
+    }
+
+    .imgmanage h2{
+        margin-top: 10px;
+        font-size: 50px;
+    }
+
+    .imgmanage .card{
+        width: 330px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgmanage .card img{
+        height: 185px;
+    }
+
+    .imgmanage .card h3{
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .imgmanage .card h4{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .imgmanage .card p{
+        font-size: 13px;
+    }
+
+    .imgmanage .card a{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*Upload Image*/
+    .upload h2{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    /*Update Image*/
+    .update{
+        padding: 60px 16% 90px;
+    }
+
+    .update .img1{
+        margin: -50px;
+        width: 100%;
+        max-width: 600px;
+        transition: 0.5s;
+    }
+
+    .update h2{
+        font-size: 45px;
+    }
+
+    /*Contact*/
+    .contact_me h2{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+}
+
+/*Max-width 1380px*//*Max-width 1380px*//*Max-width 1380px*//*Max-width 1380px*/
+/*Max-width 1380px*//*Max-width 1380px*//*Max-width 1380px*//*Max-width 1380px*/
+@media (max-width: 1380px){
+    /*Header & General*/
+    header{
+        padding: 20px 5%;
+    }
+
+    header.sticky{
+        padding: 14px 5%;
+    }
+
+    /*home*/
+    .home{
+        background-position: center;
+    }
+
+    .main-content h4{
+        font-size: 1.5rem;
+    }
+    
+    .main-content h1{
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin: 10px 0px 15px;
+        line-height: 1;
+    }
+    
+    .main-content p{
+        width: 550px;
+    }
+    
+    .social{
+        margin-bottom: 20px;
+    }
+    
+    .social a{
+        padding: 5px;
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+    }
+    
+    .hire-me{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*About*/    
+    .about h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    
+    .about .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .about .description{
+        margin-bottom: 25px;
+    }
+
+    .about img{
+        width: 400px;
+        max-width: none;
+    }
+
+    /*About2*//*About2*/
+    .about2 h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .about2 p{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .about2 img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Proficiency*/
+    .proficiency img{
+        width: 450px;
+        max-width: none;
+    }
+
+    .proficiency h2{
+        font-size: 2.7rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .proficiency2 img{
+        width: 450px;
+        max-width: none;
+    }
+
+    .proficiency2 h2{
+        font-size: 2.7rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency2 .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency2 p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    /*Gallery & Packages Start*/
+    .GnP-sections{
+        padding: 100px 16% 90px;
+    }
+
+    .GnP-sections h2{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .GnP-sections h3{
+        font-size: 2.7rem;
+    }
+
+    .GnP-sections .container .img-container{
+        grid-gap: 10px;
+        padding: 0 50px;
+    }
+
+    .GnP-sections .container .img-container img{
+        width: 42vh;
+    }
+
+    .GnP-sections .container .package{
+        height: auto;
+        width: 340px;   
+    }
+
+    .GnP-sections .container .package h3{
+        font-size: 2.5rem;
+        padding: 25px 0 0;
+    }
+    
+    .GnP-sections .container .package h4{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0 0 25px;
+    }
+    
+    .GnP-sections .container .package p{
+        font-size: 0.95rem;
+        font-weight: 400;
+        text-align: justify;
+        padding: 0 0 15px;
+    }
+    
+    .GnP-sections .container .package h5{
+        font-size: 2.1rem;
+        padding: 10px 0 0;
+    }
+    
+    .pkg-contact{
+        padding: 9px 0;
+        margin: 15px 0 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    /*Manage*/
+    .imgmanage h2{
+        margin-top: 0px;
+        font-size: 45px;
+    }
+
+    .imgmanage .card-container{
+        flex-direction: none;
+        flex-wrap: wrap;
+    }
+
+    .imgmanage .card{
+        width: 315px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgmanage .card img{
+        height: 180px;
+    }
+
+    .imgmanage .card h4{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .imgmanage .card p{
+        font-size: 13px;
+    }
+
+    .imgmanage .card a{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*Upload Image*/
+    .upload h2{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .upload img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Update Image*/
+    .update .img1{
+        width: 450px;
+        max-width: none;
+    }
+
+    .update h2{
+        font-size: 45px;
+    }
+
+    /*Contact*/    
+    .contact_me img{
+        width: 450px;
+        max-width: none;
+    }
+
+    .contact_me h2{
+        margin-top: 50px;
+        font-size: 45px;
+    }
+}
+
+/*Max-width 1200px*//*Max-width 1200px*//*Max-width 1200px*//*Max-width 1200px*/
+/*Max-width 1200px*//*Max-width 1200px*//*Max-width 1200px*//*Max-width 1200px*/
+@media (max-width: 1200px){
+    /*Header & General*/
+    header{
+        padding: 20px 2%;
+    }
+
+    header.sticky{
+        padding: 10px 2%;
+    }
+
+    /*home*/
+    .main-content h4{
+        font-size: 1.5rem;
+    }
+    
+    .main-content h1{
+        font-size: 3.0rem;
+        font-weight: 800;
+        margin: 10px 0px 15px;
+        line-height: 1;
+    }
+    
+    .main-content p{
+        width: 490px;
+    }
+    
+    .social{
+        margin-bottom: 20px;
+    }
+    
+    .social a{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+    }
+    
+    .hire-me{
+        padding: 8px 15px;
+    }
+
+    /*About*/    
+    .about h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin: 0 0 20px 10px;
+    }
+    
+    .about .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 0 0 10px;
+    }
+    
+    .about .description{
+        margin: 0 0 25px 10px;
+    }
+
+    .about img{
+        width: 400px;
+        max-width: none;
+    }
+
+    /*About2*//*About2*/
+    .about2 h2{
+        font-size: 2.0rem;
+        line-height: 1.2;
+        margin: 0 0 30px 20px;
+        width: 350px;
+    }
+
+    .about2 p{
+        font-size: 0.9rem;
+        line-height: 25px;
+        margin: 0 0 0 20px;
+    }
+
+    .about2 img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Proficiency*/
+    .proficiency img{
+        width: 400px;
+        max-width: none;
+    }
+
+    .proficiency h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .proficiency2 img{
+        width: 400px;
+        max-width: none;
+    }
+
+    .proficiency2 h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency2 .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency2 p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    /*Gallery & Packages Start*/
+    .GnP-sections{
+        padding: 100px 16% 90px;
+    }
+
+    .GnP-sections h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .GnP-sections h3{
+        font-size: 2.0rem;
+    }
+
+    .GnP-sections .container .img-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 0 50px;
+    }
+
+    .GnP-sections .container .img-container img{
+        width: 42vh;
+    }
+
+    /*Manage*/
+    .imgmanage h2{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .imgmanage .card-container{
+        flex-direction: none;
+        flex-wrap: wrap;
+    }
+
+    .imgmanage .card{
+        width: 315px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgmanage .card img{
+        height: 180px;
+    }
+
+    .imgmanage .card h4{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .imgmanage .card p{
+        font-size: 13px;
+    }
+
+    .imgmanage .card a{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*Upload Image*/
+    .upload h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .upload img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Update Image*/
+    .update .img1{
+        width: 450px;
+        padding: -50px;
+        max-width: none;
+    }
+
+    .update h2{
+        font-size: 40px;
+    }
+
+    /*Contact*/    
+    .contact_me img{
+        width: 400px;
+        max-width: none;
+    }
+
+    .contact_me h2{
+        font-size: 40px;
+    }
+}
+
+/*Max-Width 1024*//*Max-Width 1024*//*Max-Width 1024*//*Max-Width 1024*/
+/*Max-Width 1024*//*Max-Width 1024*//*Max-Width 1024*//*Max-Width 1024*/
+@media (max-width: 1024px){
+    /*Header & General*/
+    header{
+        padding: 20px 4%;
+    }
+
+    header.sticky{
+        padding: 10px 4%;
+    }
+    
+    .logo{
+        font-size: 28px;
+    }   
+    
+    .navbar a{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    
+    .h-btn{
+        padding: 8px 10px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    header.sticky{
+        padding: 10px 4%;
+    }
+
+    /*home*/
+    .main-content h4{
+        font-size: 1.5rem;
+    }
+    
+    .main-content h1{
+        font-size: 3.0rem;
+        font-weight: 800;
+        margin: 10px 0px 15px;
+        line-height: 1;
+    }
+    
+    .main-content p{
+        width: 490px;
+    }
+    
+    .social{
+        margin-bottom: 20px;
+    }
+    
+    .social a{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+    }
+    
+    .hire-me{
+        padding: 8px 15px;
+    }
+
+    /*About*/    
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 10% 50px;
+    }
+
+    .about h2{
+        padding-top: 50px;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin: 10px 0 10px 0px;
+    }
+    
+    .about .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 0 0 0px;
+    }
+    
+    .about .description{
+        margin: 0 0 10px 0px;
+    }
+
+    .about img{
+        margin: 5px 0 0;
+        width: 340px;
+        max-width: none;
+    }
+
+    /*About2*//*About2*/
+    .about2{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about2 h2{
+        font-size: 2.0rem;
+        line-height: 1.2;
+        margin: 0 0 30px 0px;
+        width: 350px;
+    }
+
+    .about2 p{
+        font-size: 0.9rem;
+        line-height: 25px;
+        margin: 0 0 0 0px;
+        padding-right: 50px;
+    }
+
+    .about2 img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Proficiency*/
+    .proficiency{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proficiency img{
+        width: 400px;
+        max-width: none;
+    }
+
+    .proficiency h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .proficiency2{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proficiency2 img{
+        width: 400px;
+        max-width: none;
+        margin: 0 0 10px;
+    }
+
+    .proficiency2 h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin: 0 0 20px;
+    }
+
+    .proficiency2 .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency2 p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    /*Gallery & Packages Start*/
+    .GnP-sections{
+        padding: 100px 16% 90px;
+    }
+
+    .GnP-sections h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .GnP-sections h3{
+        font-size: 2.0rem;
+    }
+
+    .GnP-sections .container .img-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 0 50px;
+    }
+
+    .GnP-sections .container .img-container img{
+        width: 42vh;
+    }
+
+    /*Manage*/
+    .imgmanage h2{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .imgmanage .card-container{
+        flex-direction: none;
+        flex-wrap: wrap;
+    }
+
+    .imgmanage .card{
+        width: 315px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgmanage .card img{
+        height: 180px;
+    }
+
+    .imgmanage .card h4{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .imgmanage .card p{
+        font-size: 13px;
+    }
+
+    .imgmanage .card a{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*Upload Image*/
+    .upload{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upload h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .upload img{
+        display: none;
+    }
+
+    /*Update Image*/
+    .update{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .update .img1{
+        display: none;
+    }
+
+    .update h2{
+        font-size: 40px;
+    }
+
+    /*Contact*/   
+    .contact_me{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact_me img{
+        display: none;
+    }
+
+    .contact_me h2{
+        font-size: 40px;
+    }
+}
+
+/*Max Width 768px*//*Max Width 768px*//*Max Width 768px*//*Max Width 768px*/
+/*Max Width 768px*//*Max Width 768px*//*Max Width 768px*//*Max Width 768px*/
+@media (max-width: 768px){
+    /*Header & General*/
+    header{
+        padding: 20px 4%;
+    }
+
+    header.sticky{
+        padding: 10px 4%;
+    }
+    
+    .logo{
+        font-size: 25px;
+    }   
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        margin: 10px 10px 0 0;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        border: 2px solid var(--alt-color);
+        border-radius: 20px;
+        box-shadow: 0px 0px 13px -3px var(--shadow);
+    }
+
+    .navbar.active{
+        right: 0%;
+    }
+    
+    .navbar a{
+        display: block;
+        padding: 10px 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0 10px;
+    }
+
+    .navbar a:hover{
+        color: var(--main-color);
+        box-shadow: none;
+    }
+
+    .top-btn{
+        display: none;
+    }
+    
+    .h-btn{
+        padding: 8px 12px;
+        font-size: 1rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .h-btn1{
+        padding: 8px 12px;
+        font-size: 1rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .menu-icon ion-icon{
+        display: block;
+    }
+    
+    header.sticky{
+        padding: 10px 4%;
+    }
+
+    /*home*/
+    .home{
+        padding: 110px 10% 90px;
+    }
+
+    .main-content h4{
+        font-size: 1.5rem;
+    }
+    
+    .main-content h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin: 10px 0px 15px;
+        line-height: 1;
+    }
+    
+    .main-content p{
+        width: 100%;
+        max-width: 480px;
+        font-weight: 400;
+    }
+    
+    .social{
+        margin-bottom: 20px;
+    }
+    
+    .social a{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+    }
+    
+    .hire-me{
+        padding: 8px 15px;
+    }
+
+    /*About*/    
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 10% 50px;
+    }
+
+    .about h2{
+        padding-top: 20px;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin: 0px 0 10px 0px;
+    }
+    
+    .about .btn{
+        padding: 8px 20px;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 0 20px 0px;
+    }
+    
+    .about .description{
+        margin: 0 0 5px 0px;
+    }
+
+    .about img{
+        margin: 0 0 0 0;
+        width: 250px;
+        max-width: none;
+    }
+
+    .about p{
+        font-size: 0.9rem;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    /*About2*//*About2*/
+    .about2{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 2% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about2 h2{
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin: 0 0 10px 50px;
+        width: 350px;
+    }
+
+    .about2 p{
+        font-size: 0.9rem;
+        line-height: 23px;
+        padding-right: 50px;
+        margin: 0 0 0 50px;
+        width: none;
+    }
+
+    .about2 img{
+        width: 450px;
+        max-width: none;
+    }
+
+    /*Proficiency*/
+    .proficiency{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proficiency img{
+        width: 400px;
+        max-width: none;
+    }
+
+    .proficiency h2{
+        font-size: 2.0rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .proficiency .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .proficiency2{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proficiency2 img{
+        width: 380px;
+        max-width: none;
+        margin: 0 0 10px;
+    }
+
+    .proficiency2 h2{
+        font-size: 2.0rem;
+        line-height: 1.2;
+        margin: 0 0 20px;
+    }
+
+    .proficiency2 .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .proficiency2 p{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    /*Gallery & Packages Start*/
+    .GnP-sections{
+        padding: 100px 5% 90px;
+        display: flex;
+        flex-direction: column;
+        padding: 75px 2% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .GnP-sections h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .GnP-sections h3{
+        font-size: 2.0rem;
+    }
+
+    .GnP-sections .container .img-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        padding: 20px;
+    }
+
+    .GnP-sections .container .img-container img{
+        width: 45vh;
+    }
+
+    .GnP-sections .container .package{
+        height: auto;
+        width: 300px;   
+    }
+
+    .GnP-sections .container .package h3{
+        font-size: 2.3rem;
+        padding: 15px 0 0;
+    }
+    
+    .GnP-sections .container .package h4{
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding: 0 0 20px;
+    }
+    
+    .GnP-sections .container .package p{
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: justify;
+        padding: 0 0 10px;
+    }
+    
+    .GnP-sections .container .package h5{
+        font-size: 2rem;
+        padding: 10px 0 0;
+    }
+    
+    .pkg-contact{
+        padding: 8px 0;
+        margin: 15px 0 0;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /*Manage*/
+    .imgmanage h2{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .imgmanage .card-container{
+        flex-direction: none;
+        flex-wrap: wrap;
+    }
+
+    .imgmanage .card{
+        width: 315px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgmanage .card img{
+        height: 180px;
+    }
+
+    .imgmanage .card h4{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .imgmanage .card p{
+        font-size: 13px;
+    }
+
+    .imgmanage .card a{
+        padding: 8px 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*Upload Image*/
+    .upload{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .upload h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .upload img{
+        display: none;
+    }
+
+    /*Update Image*/
+    .update{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .update .img1{
+        display: none;
+    }
+
+    .update h2{
+        font-size: 40px;
+    }
+
+    /*Contact*/   
+    .contact_me{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10% 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact_me img{
+        display: none;
+    }
+
+    .contact_me h2{
+        font-size: 40px;
+    }
+}
